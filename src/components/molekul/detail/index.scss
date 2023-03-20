@@ -1,0 +1,92 @@
+.wrap-detail {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  top: 100px;
+  .detail {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 6px 12px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 6px 12px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 6px 12px -1px rgba(0, 0, 0, 0.75);
+    .left {
+      flex: 1;
+      background-color: white;
+      height: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .lists {
+        padding-top: 20px;
+        box-sizing: border-box;
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        .list {
+          box-sizing: border-box;
+          padding: 0 10px;
+          list-style: none;
+          width: 90%;
+          border-radius: 5px;
+          margin: auto;
+          height: 50px;
+          color: teal;
+          font-weight: bold;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+          cursor: pointer;
+        }
+        .activ {
+          background-color: teal;
+          color: #fff;
+        }
+        .list:hover {
+          background-color: teal;
+          color: #fff;
+          transition: 0.5s;
+        }
+      }
+    }
+    .right {
+      flex: 3;
+      position: relative;
+      background-color: white;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .close-btn {
+        background-color: white;
+        color: darkslategrey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 5px;
+        font-size: 17px;
+        right: 5px;
+      }
+    }
+  }
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}

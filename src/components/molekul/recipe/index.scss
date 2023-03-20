@@ -1,0 +1,17 @@
+.rec{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .mea{
+        list-style: square;
+        margin-left: 20px;
+    }
+}
